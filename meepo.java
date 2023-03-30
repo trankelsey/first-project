@@ -1,9 +1,7 @@
 
 
 import java.util.Scanner;
-public class meepo { /**
- * @param args
- */
+public class meepo { 
 public static void main(String[] args) {
     
     Scanner sc = new Scanner(System.in);
@@ -38,9 +36,9 @@ public static void main(String[] args) {
       }
     
     sc.close();
-   //i didnt code the bottom stuff
+   
 }
-
+// @param args
      public static String binaryToText(String binaryText) {
         String[] binaryNumbers = binaryText.split(" ");
         String text = "";
